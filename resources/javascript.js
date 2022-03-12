@@ -1,4 +1,9 @@
-function sendMessage(title, desc, webhook) { 
+function sendMessage() { 
+    var title = prompt("What title?")
+    var desc = prompt("what description?")
+    
+    var botname = prompt("enter name of bot")
+    var webhook = prompt("enter webhook URL")
     var request = new XMLHttpRequest();
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
