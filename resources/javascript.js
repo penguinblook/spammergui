@@ -1,6 +1,6 @@
 function sendMessage(title, desc, webhook) { 
     var request = new XMLHttpRequest();
-    request.open("POST", webhook`);
+    request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
     var myEmbed = {
         title: title,
