@@ -1,2 +1,2 @@
 # spammerGUI
-# a simple webpage to spam discord webhook api
+ a simple webpage to spam discord webhook api
