@@ -3,7 +3,7 @@ function sendMessage() {
    let title = document.getElementById("Title").value;
    let desc = document.getElementById("Desc").value;
    let webhook = document.getElementById("Webhook").value;
-   let repeat = document.getElementById("Repeat").value;
+   var repeat = document.getElementById("Repeat").value;
     var request = new XMLHttpRequest();
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
@@ -25,4 +25,4 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-setInterval(sendMessage, `${repeat}`);
+setInterval(sendMessage,repeat);
