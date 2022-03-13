@@ -5,7 +5,7 @@ function sendMessage(botname, title, desc, image, webhook) {
     var myEmbed = {
         title: title,
         description: desc,
-        color: hexToDecimal(#000);
+        color: hexToDecimal("#ff0000"),
         footer: {
             text: "by penguinpowers#5415"
         }
