@@ -12,7 +12,7 @@ function sendMessage(botname, title, desc, webhook, image) {
     }
     var params = {
         username: botname,
-         avatar_url: "image",
+         avatar_url: image,
         embeds: [myEmbed]
     }
     request.send(JSON.stringify(params));
