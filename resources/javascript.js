@@ -1,4 +1,11 @@
-function sendMessage() { 
+var amt = Number(document.getElementById("Num").value);
+alert(amt)
+function HandelInterval() {
+   let amnt = document.getElementById("Num").value;
+   
+}
+
+function sendMessage(botname, title, desc, webhook) { 
    let botname = document.getElementById("Botname").value;
    let title = document.getElementById("Title").value;
    let desc = document.getElementById("Desc").value;
