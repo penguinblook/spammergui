@@ -1,4 +1,4 @@
-function sendMessage() { 
+function send() { 
    let botname = document.getElementById("Botname").value;
    let title = document.getElementById("Title").value;
    let desc = document.getElementById("Desc").value;
@@ -25,4 +25,4 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-setInterval(sendMessage,repeat);
+setInterval(send,repeat);
