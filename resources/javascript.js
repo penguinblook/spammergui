@@ -1,4 +1,4 @@
-function sendMessage(botname, title, desc, webhook) { 
+function sendMessage(botname, title, desc, webhook, image) { 
     var request = new XMLHttpRequest();
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
@@ -12,7 +12,7 @@ function sendMessage(botname, title, desc, webhook) {
     }
     var params = {
         username: botname,
-         avatar_url: "",
+         avatar_url: "image",
         embeds: [myEmbed]
     }
     request.send(JSON.stringify(params));
