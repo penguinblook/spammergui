@@ -24,8 +24,8 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-let num = document.getElementById("Num").value;
+let NUM = document.getElementById("Num").value;
 
 setInterval(() => {
     sendMessage();
-}, num);
+}, NUM);
