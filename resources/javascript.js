@@ -1,11 +1,11 @@
-function sendMessage(botname, title, desc, image, webhook) { 
+function sendMessage(botname, title, desc, image, webhook, clr) { 
     var request = new XMLHttpRequest();
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
     var myEmbed = {
         title: title,
         description: desc,
-        color: hexToDecimal("#ff0000"),
+        color: hexToDecimal clr,
         footer: {
             text: "by penguinpowers#5415"
         }
