@@ -1,10 +1,3 @@
-var amt = Number(document.getElementById("Num").value);
-alert(amt)
-function HandelInterval() {
-   let amnt = document.getElementById("Num").value;
-   
-}
-
 function sendMessage(botname, title, desc, webhook) { 
    let botname = document.getElementById("Botname").value;
    let title = document.getElementById("Title").value;
@@ -31,8 +24,3 @@ function sendMessage(botname, title, desc, webhook) {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-let NUM = document.getElementById("Num").value;
-
-setInterval(() => {
-    sendMessage();
-}, NUM);
