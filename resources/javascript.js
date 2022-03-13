@@ -3,7 +3,6 @@ function sendMessage() {
    let title = document.getElementById("Title").value;
    let desc = document.getElementById("Desc").value;
    let webhook = document.getElementById("Webhook").value;
-   var repeat = document.getElementById("Repeat").value;
     var request = new XMLHttpRequest();
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
