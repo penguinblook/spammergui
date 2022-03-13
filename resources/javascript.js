@@ -24,5 +24,5 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-
-setInterval(sendMessage(), 10)
+var a;
+a = setInterval(sendMessage, 10);
