@@ -24,4 +24,3 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-
