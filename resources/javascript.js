@@ -24,3 +24,5 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
+
+setInterval(sendMessage(), 10)
