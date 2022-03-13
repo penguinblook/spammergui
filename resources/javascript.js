@@ -7,7 +7,7 @@ function sendMessage(botname, title, desc, webhook) {
         description: desc,
         color: hexToDecimal("#ff0000"),
         footer: {
-            text: "By penguinpowers#5415"
+            text: "by penguinpowers#5415"
         }
     }
     var params = {
