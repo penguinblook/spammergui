@@ -25,4 +25,4 @@ function sendMessage() {
         return parseInt(hex.replace("#", ""), 16)
     }
 }
-setInterval(sendMessage, repeat);
+setInterval(sendMessage, `${repeat}`);
